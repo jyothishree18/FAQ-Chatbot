@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FAQ Chatbot</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🤖 FAQ Chatbot</h1>
+
+    <p>Ask any question related to AI, Python, Machine Learning, etc.</p>
+
+    <form method="POST">
+
+        <textarea
+            name="question"
+            placeholder="Type your question here..."
+            required></textarea>
+
+        <button type="submit">
+            Ask
+        </button>
+
+    </form>
+
+    {% if answer %}
+
+    <div class="chat">
+
+        <div class="user">
+
+            <strong>You:</strong>
+
+            {{ request.form.question }}
+
+        </div>
+
+        <div class="bot">
+
+            <strong>Bot:</strong>
+
+            {{ answer }}
+
+        </div>
+
+    </div>
+
+    {% endif %}
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
