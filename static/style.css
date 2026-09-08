@@ -1,126 +1,89 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-body{
-
-    background:linear-gradient(135deg,#667eea,#764ba2);
-
-    min-height:100vh;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container{
-
-    width:700px;
-
-    background:white;
-
-    padding:30px;
-
-    border-radius:15px;
-
-    box-shadow:0 15px 30px rgba(0,0,0,.25);
-
+.container {
+    width: 700px;
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
-h1{
-
-    text-align:center;
-
-    color:#333;
-
+h1 {
+    text-align: center;
+    color: #f8fafc;
 }
 
-p{
-
-    text-align:center;
-
-    margin:15px 0;
-
-    color:#666;
-
+p {
+    text-align: center;
+    margin: 15px 0;
+    color: #cbd5e1;
 }
 
-textarea{
-
-    width:100%;
-
-    height:140px;
-
-    padding:12px;
-
-    border-radius:10px;
-
-    border:1px solid #ccc;
-
-    resize:none;
-
-    font-size:16px;
-
+textarea {
+    width: 100%;
+    height: 140px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    resize: none;
+    font-size: 16px;
+    background: #0f172a;
+    color: #f8fafc;
 }
 
-button{
-
-    width:100%;
-
-    padding:12px;
-
-    margin-top:20px;
-
-    background:#4CAF50;
-
-    color:white;
-
-    border:none;
-
-    border-radius:8px;
-
-    cursor:pointer;
-
-    font-size:18px;
-
+textarea::placeholder {
+    color: #94a3b8;
 }
 
-button:hover{
-
-    background:#388E3C;
-
+textarea:focus {
+    outline: none;
+    border-color: #6366f1;
 }
 
-.chat{
-
-    margin-top:25px;
-
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
 }
 
-.user{
-
-    background:#E3F2FD;
-
-    padding:15px;
-
-    border-radius:8px;
-
-    margin-bottom:10px;
-
+button:hover {
+    background: #4f46e5;
 }
 
-.bot{
+.chat {
+    margin-top: 25px;
+}
 
-    background:#E8F5E9;
+.user {
+    background: #1e3a5f;
+    color: #e2e8f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
 
-    padding:15px;
-
-    border-radius:8px;
-
+.bot {
+    background: #164e3b;
+    color: #d1fae5;
+    padding: 15px;
+    border-radius: 8px;
 }
