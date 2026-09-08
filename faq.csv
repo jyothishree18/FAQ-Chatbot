@@ -9,3 +9,38 @@ What is Data Science?,Data Science is the process of extracting knowledge from d
 What is Flask?,Flask is a lightweight Python web framework.
 What is Pandas?,Pandas is a Python library used for data analysis.
 What is NumPy?,NumPy is a Python library for numerical computing.
+Question,Answer
+What is Linux?,Linux is an open-source operating system commonly used for servers and development.
+What is Unix?,Unix is a family of operating systems that influenced many modern operating systems including Linux.
+What is WSL?,WSL stands for Windows Subsystem for Linux and allows Linux environments to run on Windows.
+What is an operating system?,An operating system is software that manages computer hardware and provides services for applications.
+What is an IP address?,An IP address is a unique address used to identify a device on a network.
+What is IPv4?,IPv4 is the fourth version of the Internet Protocol and uses 32-bit addresses.
+What is IPv6?,IPv6 is the newer version of the Internet Protocol and uses 128-bit addresses.
+What is a public IP address?,A public IP address is an address used to identify a device or network on the internet.
+What is a private IP address?,A private IP address is used to identify devices within a local network.
+What is localhost?,Localhost refers to the computer you are currently using and commonly uses the IP address 127.0.0.1.
+What is DNS?,DNS stands for Domain Name System and converts domain names into IP addresses.
+What is HTTP?,HTTP stands for HyperText Transfer Protocol and is used for communication between clients and web servers.
+What is HTTPS?,HTTPS is the secure version of HTTP that encrypts communication between a client and server.
+What is a web application?,A web application is a software application that runs through a web browser.
+What is a web server?,A web server receives requests from clients and sends web content or responses back to them.
+What is an application server?,An application server runs the application logic and processes requests before sending responses.
+What is a client?,A client is a device or application that sends requests to a server.
+What is a server?,A server is a computer or software that provides services or resources to clients.
+What is a request?,A request is a message sent by a client to a server asking for a resource or action.
+What is a response?,A response is the message sent by a server back to the client after processing a request.
+What is GET?,GET is an HTTP method commonly used to retrieve data from a server.
+What is POST?,POST is an HTTP method commonly used to send data to a server.
+What is a URL?,A URL is the address used to locate a resource on the internet.
+What is JSON?,JSON is a lightweight data format commonly used to exchange data between applications.
+What is a query parameter?,A query parameter is a value added to a URL to provide additional information to a server.
+What is Flask?,Flask is a lightweight Python web framework used to build web applications and APIs.
+What is Git?,Git is a version control system used to track changes in code and files.
+What is a repository?,A repository is a location where a project's files and their version history are stored.
+What is a commit?,A commit is a saved snapshot of changes made to files in a Git repository.
+What is a branch in Git?,A branch is a separate line of development used to work on changes without affecting the main branch.
+What is a web browser?,A web browser is software used to access and interact with websites and web applications.
+What is a port?,A port is a number used to identify a specific service or application running on a device.
+What is a database?,A database is a system used to store and organize data so that applications can access it.
+What is client-server architecture?,Client-server architecture is a model where a client sends requests and a server processes them and returns responses.
